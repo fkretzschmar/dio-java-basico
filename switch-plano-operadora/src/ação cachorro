@@ -1,9 +1,9 @@
 public String interagir(String acao){
   switch(acao){
-    case "carinho": this.estadoDeExpirito = "Feliz";
-    case "vai dormir": this.estadoDeExpirito = "Bravo";
-    case "pisar na patinha": this.estadoDeExpirito = "Triste";
-    default: this.estadoDeEspirito = "Neutro";
+    case "carinho": this.estadoDeExpirito = "Feliz"; break;
+    case "vai dormir": this.estadoDeExpirito = "Bravo"; break;
+    case "pisar na patinha": this.estadoDeExpirito = "Triste"; break;
+    default: this.estadoDeEspirito = "Neutro"; break;
   }
 return this.estadoDeEspirito;
 }
